@@ -33,7 +33,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'quest = quest.__main__:main'
+            'calculator = calculator.__main__:main'
         ]
     }
 )
