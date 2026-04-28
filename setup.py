@@ -1,7 +1,6 @@
 from setuptools import setup, find_packages
 
 DISTNAME = "quest-calculator"
-VERSION = "1.0"
 PYTHON_REQUIRES = ">=3.6, <3.11"
 DESCRIPTION = "Sandia National Laboratories Energy Storage Application Platform"
 LONG_DESCRIPTION = open("README.md").read()
@@ -9,6 +8,7 @@ AUTHOR = "Sandia National Laboratories"
 MAINTAINER_EMAIL = "eecabre@sandia.gov"
 LICENSE = "BSD 3-clause"
 URL = "https://github.com/ercabrer/pyside6-calculator.git"
+VERSION = open("version.txt").read().strip()
 
 setup(
     name=DISTNAME,
