@@ -22,3 +22,4 @@ The Quest Calculator is a simple yet powerful calculator application developed u
 ```bash
 git clone https://github.com/ercabrer/pyside6-calculator.git
 cd pyside6-calculator
+```

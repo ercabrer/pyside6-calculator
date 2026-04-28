@@ -21,6 +21,7 @@ setup(
     python_requires=PYTHON_REQUIRES,
     description=DESCRIPTION,
     long_description=LONG_DESCRIPTION,
+    long_description_content_type="text/markdown",
     author=AUTHOR,
     maintainer_email=MAINTAINER_EMAIL,
     license=LICENSE,
